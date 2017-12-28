@@ -1,0 +1,2 @@
+# wx_program_QRCode
+基于qrcodejs的微信小程序二维码生成库
