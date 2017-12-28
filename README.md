@@ -9,15 +9,15 @@
 ```HTML
 <canvas canvas-id="canvas" style="width: 300px; height: 300px"></canvas>
 ```
-##js
+## js
 ```Javascript
 var qrcode = new QRCode('canvas', {
-	text: 'http://jindo.dev.naver.com/collie',
-	width: 300,
-	height: 300,
-	colorDark : '#000000',
-	colorLight : '#ffffff',
-	correctLevel : QRCode.correctLevel.H
+    text: 'http://jindo.dev.naver.com/collie',
+    width: 300,
+    height: 300,
+    colorDark : '#000000',
+    colorLight : '#ffffff',
+    correctLevel : QRCode.correctLevel.H
 });
 
 qrcode.clear(); // clear the code.
